@@ -189,5 +189,164 @@ body {
 }
 /* hero section style end */
 
+/* recomendatiom section start */
 
+.recomendation-section {
+  padding-top: 120px;
+  padding-bottom: 108px;
+  background-color: #fefeff;
+}
 
+.recomendation-section__link {
+  display: inline-flex;
+  margin-bottom: 16px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #69b99d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.5px;
+  background: #f8f9fe;
+  text-decoration: none;
+}
+
+.recomendation-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 48px;
+}
+
+.recomendation-section__title-wrapper {
+  width: 492px;
+}
+
+.recomendation-section__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #054457;
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: 0.5px;
+}
+
+.recomendation-section__desc {
+  margin: 0;
+  color: #73788C;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.04px;
+}
+
+.recomendation-section__learn-link {
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #69B99D;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.recomendation-section__learn-link::after {
+  content: "";
+}
+
+.recomendation-section__house-list {
+  display: flex;
+  column-gap: 34px;
+}
+
+.house__item {
+  padding: 16px;
+  border: 1px solid #DEDCDA;
+  background-color: #FEFEFF;
+}
+
+.house__img {
+  margin-bottom: 16px;
+}
+
+.house__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--Tittle, #1F2744);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.06px;
+}
+
+.house__desc {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.04px;
+}
+
+.house__info-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.house__price {
+  margin-right: 32px;
+  color: #69b99d;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.06px;
+}
+
+.house__info {
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+}
+
+.house__area {
+  color: #1F2744;
+  margin-right: 2px;
+}
+
+.house__sent-btn {
+  display: flex;
+  width: 344px;
+  height: 60px;
+  padding: 12px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border: 1px solid #69b99d;
+  color: #69B99D;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04px;
+}
+
+.house__sent-btn--active {
+  color: #fefeff;
+  background-color: #5c9682;
+}
