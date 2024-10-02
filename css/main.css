@@ -362,6 +362,7 @@ body {
 
 .rectangle-section__link {
   display: inline-flex;
+  margin-bottom: 16px;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
@@ -374,4 +375,21 @@ body {
   letter-spacing: 0.5px;
   text-decoration: none;
   background-color: #f8f9fe;
+}
+
+.rectangle-section__title-wrapper {
+  width: 436px;
+  margin-bottom: 48px;
+}
+
+.rectangle-section__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #054457;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: 0.5px;
 }
