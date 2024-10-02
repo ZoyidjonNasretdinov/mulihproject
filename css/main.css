@@ -30,12 +30,15 @@
   font-weight: 700;
   src: url('../fonts/poppins700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+html {
+  box-sizing: border-box;
+
+}
 
 body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  box-sizing: border-box;
   background-color: #f5f5f5;
 }
 
@@ -393,3 +396,48 @@ body {
   line-height: 56px; /* 116.667% */
   letter-spacing: 0.5px;
 }
+
+
+.rectangle-section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.rectangle-section__item {
+  padding: 25px 20px 20px 20px;
+  width: 349px;
+}
+
+.rectangle-section__item-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #054457;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px; /* 135.714% */
+  letter-spacing: 0.5px;
+}
+
+.rectangle-section__item-title::before {
+  display: block;
+  width: 45px;
+  height: 42px;
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px 42px;
+  content: "";
+}
+
+.rectangle-section__item-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #73788c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.5px;
+}
+
+
