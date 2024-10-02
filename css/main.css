@@ -423,11 +423,49 @@ body {
   display: block;
   width: 45px;
   height: 42px;
+  margin-bottom: 16px;
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 45px 42px;
   content: "";
+}
+
+.rectangle-section__item:nth-child(2) > .rectangle-section__item-title::before {
+  width: 39px;
+  height: 45px;
+  margin-bottom: 16px;
+  background-image: url("../images/shield.svg");
+  background-size: 39px 45px;
+}
+
+.rectangle-section__item:nth-child(3) > .rectangle-section__item-title::before {
+  width: 45px;
+  height: 42px;
+  margin-bottom: 16px;
+  background-image: url("../images/star.svg");
+  background-size: 45px 42px;
+}
+
+.rectangle-section__item:nth-child(4) > .rectangle-section__item-title::before {
+  width: 45px;
+  height: 40px;
+  background-image: url("../images/ticket.svg");
+  background-size: 45px 40px;
+}
+
+.rectangle-section__item:nth-child(5) > .rectangle-section__item-title::before {
+  width: 39px;
+  height: 45px;
+  background-image: url("../images/heart.svg");
+  background-size: 39px 45px;
+}
+
+.rectangle-section__item:nth-child(6) > .rectangle-section__item-title::before {
+  width: 44px;
+  height: 45px;
+  background-image: url("../images/heart.svg");
+  background-size: 44px 45px;
 }
 
 .rectangle-section__item-desc {
