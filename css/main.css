@@ -350,3 +350,28 @@ body {
   color: #fefeff;
   background-color: #5c9682;
 }
+
+/* recomentdation section end */
+
+/* rectangle section start */
+
+.rectangle-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.rectangle-section__link {
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #69b99d;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  background-color: #f8f9fe;
+}
