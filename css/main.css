@@ -30,9 +30,10 @@
   font-weight: 700;
   src: url('../fonts/poppins700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-html {
-  box-sizing: border-box;
 
+* {
+  box-sizing: border-box;
+  
 }
 
 body {
@@ -406,7 +407,7 @@ body {
 
 .rectangle-section__item {
   padding: 25px 20px 20px 20px;
-  width: 349px;
+  width: 376px;
 }
 
 .rectangle-section__item-title {
@@ -484,3 +485,82 @@ body {
 
 
 /* about us section start  */
+
+.about-section {
+  padding-top: 216px;
+  padding-bottom: 110px;
+  background-color: #fefeff;
+}
+
+.about-section__wrapper {
+  display: flex;
+  column-gap: 56px;
+}
+
+.about-section__wrapper-left {
+  position: relative;
+  width: 609px;
+  height: 475px;
+}
+
+.review-card {
+  position: absolute;
+  top: -80px;
+  left: 96px;
+  width: 174px;
+  height: 236px;
+  padding: 32px;
+  flex-shrink: 0;
+  background-color: #fefeff;
+  box-shadow: 35px 35px 65px 0px rgba(146, 106, 120, 0.16);
+  z-index: 2;
+}
+
+.review-card__ball {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  color: #054457;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px; /* 111.111% */
+  letter-spacing: 0.18px;
+}
+
+.review-card__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  margin-bottom: 16px;
+}
+
+.review-card__item {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  background-image: url("../images/starabout.svg");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.review-card__desc {
+  margin-top: 0;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04px;
+}
+
+.review-card__reviews {
+  display: flex;
+  justify-content: center;
+  color: #054457;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04px;
+}
