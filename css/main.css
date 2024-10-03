@@ -564,3 +564,40 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.04px;
 }
+
+.review-card__total-wrapper {
+  position: absolute;
+  left: 107px;
+  bottom: 0;
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.review-card__total-name-wrapper {
+  display: flex;
+  align-items: center;
+  width: calc(123px + 8px + 72px);
+  height: 58px;
+  column-gap: 8px;
+}
+
+.review-card__total {
+  color: #054457;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px; /* 120.833% */
+  letter-spacing: 0.12px;
+}
+
+.review-card__total-name {
+  color: #a6a6a6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.04px;
+}
