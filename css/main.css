@@ -111,6 +111,7 @@ body {
   padding: 16px 48px 15px 48px;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   border: none;
   font-size: 16px;
   font-weight: 500;
