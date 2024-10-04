@@ -883,5 +883,56 @@ body {
 }
 
 
+.contact-section__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.contact-section__user--style {
+  display: flex;
+  width: 608px;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #dedcda;
+  color: var(--Tittle, #1F2744);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+.contact-section__user--style::placeholder {
+  color: var(--Tittle, #1F2744);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  opacity: 0.3;
+}
+
+.contact-section__user-text {
+  width: 608px;
+  height: 150px;
+}
+
+.contact-section__form-btn {
+  display: flex;
+  width: 608px;
+  height: 60px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: #69B99D;
+  box-shadow: 24px 24px 65px 0px rgba(81, 140, 119, 0.24);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+
 
 /* contact section end */
