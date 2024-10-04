@@ -672,6 +672,12 @@ body {
   padding: 80px 0;
 }
 
+.customer-section__wrapper {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
 .customer-section__link {
   display: inline-flex;
   margin-bottom: 16px;
@@ -688,7 +694,9 @@ body {
   text-decoration: none;
 }
 
-.costomer-section__title {
+.customer-section__title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #054457;
   font-family: Rubik;
   font-size: 48px;
@@ -696,4 +704,19 @@ body {
   font-weight: 600;
   line-height: 56px; /* 116.667% */
   letter-spacing: 0.5px;
+}
+
+.customer-section__learn-link {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #69B99D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.5px;
+  text-decoration: none;
 }
