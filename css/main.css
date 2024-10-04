@@ -621,6 +621,7 @@ body {
   line-height: 26px; /* 144.444% */
   letter-spacing: 0.5px;
   text-decoration: none;
+  background: #f8f9fe;
 }
 
 .about-section__title {
@@ -660,5 +661,29 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.04px;
+  text-decoration: none;
+}
+
+
+
+/* customer section start */
+
+.customer-section {
+  padding: 80px 0;
+}
+
+.customer-section__link {
+  display: inline-flex;
+  margin-bottom: 16px;
+  padding: 12px 24px; 
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f8f9fe;
+  color: #69B99D;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.5px;
   text-decoration: none;
 }
