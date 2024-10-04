@@ -848,14 +848,40 @@ body {
 .contact-section__address-item {
   display: flex;
   align-items: center;
-  column-gap: 24px;
+}
+
+.contact-section__address-item > .contact-section__address-link::before {
+  display: inline-flex;
+  width: 56px;
+  height: 56px;
+  border-radius: 75px;
+  background-color: rgba(105, 185, 157, 0.10);
+  background-image: url("../images/contactcall.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  content: "";
+}
+
+.contact-section__address-item:nth-child(2) > .contact-section__address-link::before {
+  background-image: url("../images/contactsms.svg");
+}
+
+.contact-section__address-item:nth-child(3) > .contact-section__address-link::before {
+  background-image: url("../images/contactlocation.svg");
 }
 
 .contact-section__address-link {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
   color: var(--Tittle, #1F2744);
   font-size: 24px;
   font-weight: 500;
   line-height: 150%; /* 36px */
   text-decoration: none;
 }
+
+
+
 /* contact section end */
