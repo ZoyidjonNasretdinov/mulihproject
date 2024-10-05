@@ -1006,3 +1006,19 @@ img {
   line-height: 24px; /* 150% */
   text-decoration: none;
 }
+
+.site-footer__social-list {
+  flex-direction: row;
+  column-gap: 16px;
+}
+
+.site-footer__social-list-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #f8f9f9;
+}
