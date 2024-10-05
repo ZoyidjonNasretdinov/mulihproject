@@ -43,6 +43,10 @@ body {
   background-color: #f5f5f5;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1232px;
   width: 100%;
@@ -934,5 +938,31 @@ body {
 }
 
 
-
 /* contact section end */
+
+/* Footer section style start */
+
+.site-footer {
+  padding-top: 75px;
+  padding-bottom: 125px;
+  background-color: #F5F5F5;
+}
+
+.site-footer__wrapper {
+  display: flex;
+  align-items: start;
+  column-gap: 221px;
+}
+
+.site-footer__wrapper-left {
+  width: 344px;
+}
+
+.site-footer__desc {
+  color: var(--Tittle, #1F2744);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.04px;
+}
