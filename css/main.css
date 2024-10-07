@@ -121,6 +121,8 @@ img {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.04px;
+  border: 1px solid transparent;
+  transition: 0.3s linear background-color, 0.3s linear border;
 }
 
 .site-header__form-signin {
@@ -128,10 +130,35 @@ img {
   background-color: #f5f5f5;
 }
 
+.site-header__form-signin:hover {
+  color: #fff;
+  background-color: #5c9682;
+}
+
+.site-header__form-signin:active {
+  color: #69b99d;
+  background-color: #f5f5f5;
+  border: 1px solid #69B99D;
+}
+
+
 .site-header__form-login {
   color: #fff;
   background-color: #69b99d;
 }
+
+.site-header__form-login:hover {
+  color: #fff;
+  background-color: #5C9682;
+}
+
+
+.site-header__form-login:active {
+  color: #fff;
+  background-color: #69b99d;
+}
+
+
 
 /* header section end */
 
